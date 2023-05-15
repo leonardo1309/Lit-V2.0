@@ -2,13 +2,13 @@ import 'package:flutter/cupertino.dart';
 
 class Device {
   String name;
+  bool isOn;
   final String id;
-  //late double value;
-  //late bool isOn;
-  Icon icon;
+  Icon? icon;
 
   Device({
     required this.name,
     required this.id,
-    required this.icon});
+    required this.isOn,
+    this.icon});
 }

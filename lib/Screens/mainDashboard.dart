@@ -47,7 +47,7 @@ class _MainDashboardState extends State<MainDashboard> {
         child: BlocBuilder<NavItemBloc, NavItemState>(
           builder: (_, state) {
             NavItem? navItem = state.navItem;
-            navItem != null ? navIndex = navItem.index : navIndex = 2;
+            navItem != null ? navIndex = navItem.index : navIndex = 0;
 
             return Icon(AppConstants.navIcons[navIndex]);
           },

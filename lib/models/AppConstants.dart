@@ -22,4 +22,7 @@ class AppConstants {
     Icons.add_circle_outline_outlined,
     Icons.person,
   ];
+
+
+  static const String favoriteDevices = 'Dispositivos Favoritos';
 }
